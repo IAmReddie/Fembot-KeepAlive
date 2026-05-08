@@ -6,6 +6,14 @@ A lightweight Chrome extension that keeps the Fembot Discord bot online by pingi
 
 ## How It Works
 
+After you're done installing the extension, paste this link into the **Server URL** field: `https://fembot-IAmReddie.replit.app`
+That's it! Now as long as you or someone else has their browser open, the bot will stay online! 
+Thank you for helping!
+
+---
+
+## How It Works
+
 When you toggle the extension on, it runs a background process that sends a small request to the bot's server URL at regular intervals. This prevents the hosting server from going to sleep due to inactivity, keeping the bot online and responsive in your Discord server — even when no one is actively using it.
 
 - Pings the server every **4 minutes**
@@ -26,9 +34,9 @@ Yes. Here's why:
 - **No login required.** You don't need to sign in to anything.
 
 The only permissions it requests are:
-- `storage` — to remember your server URL and toggle state
+- `storage` — to remember the server URL and toggle state
 - `alarms` — to schedule the ping every 4 minutes
-- `host_permissions: <all_urls>` — to be allowed to reach any server URL you enter
+- `host_permissions: <all_urls>` — to be allowed to reach the server URL you enter
 
 ---
 
@@ -54,7 +62,7 @@ The extension will now appear in your Chrome toolbar.
 ### Step 3 — Configure it
 
 1. Click the extension icon in your toolbar
-2. Paste your bot's server URL into the **Server URL** field (e.g. `https://fembot-yourname.replit.app`)
+2. Paste the bot's server URL into the **Server URL** field `https://fembot-IAmReddie.replit.app`
 3. Toggle **Keep bot alive** on
 4. The status will change to **Online** once the first ping succeeds
 
